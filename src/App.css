@@ -1,0 +1,86 @@
+.container {
+  width: 80vw;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.heroTitle {
+  letter-spacing: 0.2vw;
+  text-shadow: #F40B5F 0px 0px 20px;
+  font-family: "W3$iP", sans-serif;
+  font-size: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  color: white;
+}
+
+.hero {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.heroImg {
+  height: 620px;
+  border-radius: 300px;
+  border: 3px #F40B5F solid;
+  box-shadow: #F40B5F60 0px 0px 72px 4px;
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 20px;
+} 
+
+
+@media (orientation: portrait) {
+  .container {
+    width: 94%;
+    align-items: center;
+  }
+  .App {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroTitle {
+    gap: 10px;
+    font-size: 8vw;
+  }
+
+  .hero {
+    margin-top: 400px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+  }
+  
+  .heroImg {
+    position: absolute;
+    top: 30px;
+    z-index: -1;  
+  }
+
+}

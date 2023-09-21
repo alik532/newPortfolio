@@ -1,0 +1,83 @@
+.title {
+	margin: 150px 0px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	font-size: 7vw;
+	text-transform: uppercase;
+	font-family: "DISKET MONO", sans-serif;
+}
+
+
+.main {
+	text-shadow: #F40B5F 0px 0px 40px;
+	z-index: 1;
+	color: white;
+}
+
+.echo1, .echo2 {
+	position: absolute;
+	color: #F40B5F;
+}
+
+.echo1 {
+	filter: blur(3px);
+	transform: translateY(-40px);
+	opacity: 50%;
+}
+
+.echo2 {
+	filter: blur(5px);
+	transform: translateY(-80px);
+	opacity: 25%;
+}
+
+@keyframes blur {
+	from {
+		transform: translateY(-50px);
+	}
+
+	to {
+		transform: translateY(50px);
+	}
+}
+
+
+@keyframes blur2x {
+	from {
+		transform: translateY(-100px);
+	}
+
+	to {
+		transform: translateY(100px);
+	}
+}
+
+@keyframes blurReverse2x {
+	from {
+		transform: translateY(100px);
+	}
+
+	to {
+		transform: translateY(-100px);
+	}
+}
+
+@keyframes blurReverse {
+	from {
+		transform: translateY(50px);
+	}
+
+	to {
+		transform: translateY(-50px);
+	}
+}
+
+@media (orientation: portrait) {
+	.title > * {
+		font-size: 17vw;
+	}
+	.title {
+		margin: 100px 0px
+	}
+} 
