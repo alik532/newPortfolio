@@ -15,9 +15,8 @@ html {
 }
 
 .heroTitle {
-  letter-spacing: 0.2vw;
   text-shadow: #F40B5F 0px 0px 20px;
-  font-family: "W3$iP", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 54px;
   display: flex;
   flex-direction: column;
@@ -68,7 +67,6 @@ html {
   }
 
   .hero {
-    overflow-x: hidden;
     margin-top: 400px;
     flex-direction: column-reverse;
     align-items: center;

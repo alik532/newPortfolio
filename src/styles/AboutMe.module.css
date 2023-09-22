@@ -68,7 +68,7 @@
 }
 
 .interest {
-	font-family: "W3$iP", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
 	background-color: #0B0B0B;
 	padding: 40px 0px;
@@ -110,6 +110,23 @@
 		z-index: 1;
 		font-size: 3vw;
 	}
+	.additional {
+		padding: 40px 30px;
+	}
+	.interests {
+		gap: 15px;
+	}
+	.interest {
+		flex-direction: row;
+		align-items: center;
+		gap: 30px;
+		padding: 20px;
+		font-size: 3vw;
+	}
+	.icon {
+		height: 50px;
+		width: 50px;
+	}
 	.img {
 		filter: brightness(0.6);
 		position: absolute;
@@ -119,7 +136,7 @@
 		object-fit: cover;
 		overflow-y: hidden;
 		top: 0px;
-		border-radius: 60px;
+		border-radius: 60px;	
 	}
 	.interest {
 		width: 100%;

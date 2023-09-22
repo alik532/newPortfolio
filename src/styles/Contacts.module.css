@@ -67,8 +67,11 @@
 	.contact {
 		border-radius: 0;
 		width: 90%;
-		height: 190px;
+		height: 140px;
 		border-radius: 40px !important;
 	}
-	
+	.contact img {
+		height: 50px;
+		width: 50px;
+	}
 }
