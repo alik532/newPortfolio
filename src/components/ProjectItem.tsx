@@ -29,10 +29,10 @@ const ProjectItem:FC<IProjectItem> = ({project}) => {
 					<Button icon={tech.logo} color={tech.color}/>
 				)}</div>
 				<div className={classes.buttons}>
-					<a href={project.site}>
+					<a href={project.site} className={classes.action}>
 						<button onMouseEnter={() => setOnExplore(true)} className={[classes.explore, onExplore ? classes.exploreExpand : classes.exploreCollapse].join(" ")}><h1>EXPLORE</h1><img src={arrow} alt="" /></button>
 					</a>
-					<a href={project.sourceCode}>
+					<a href={project.sourceCode} className={classes.action}>
 						<button onMouseEnter={() => setOnExplore(false)} className={[classes.code, !onExplore ? classes.codeExpand : classes.codeCollapse].join(" ")}><h1>CODE</h1><img src={code} alt="" /></button>
 					</a>
 				</div>
