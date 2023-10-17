@@ -9,6 +9,7 @@ import CodewarsSVG from './assets/codewars.svg'
 import LeetcodeSVG from './assets/leetcode.svg'
 import GithubSVG from './assets/github.svg'
 import Linkedin from './assets/linkedin.svg'
+import WeatherPNG from './assets/weather.png'
 
 export const projectList:Array<IProject> = [
 	{
@@ -25,6 +26,20 @@ export const projectList:Array<IProject> = [
 		img: spotifyPNG,
 		color: "#00FF0A",
 	},
+	{
+		title: "Weather App",
+		techs: [
+			{id: "1", name: 'React', logo: ReactSVG, description: "React is a free and open-source front-end JavaScript library for building user interfaces based on components.", color: "#61DAFB"},
+			{id: "2", name: 'Redux', logo: ReduxSVG, description: "Redux is an open-source JavaScript library for managing and centralizing application state.", color: "#764ABC"},
+			{id: "3", name: 'Rapid API', logo: RapidapiSVG, description: "The API Platform is a multi-cloud, customized hub to find, connect to, and share APIs.", color: "#0055DA"},
+			{id: "4", name: 'Typescript', logo: TypescriptSVG, description: "TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript.", color: "#3178C6"}
+		],
+		description: "Real Time Weather application with 20+ countries. 3-Day forecast and vast amount of weather data",
+		sourceCode: "https://github.com/alik532/WeatherApp",
+		site: "https://verdant-choux-412b48.netlify.app/",
+		color: "#6E3AFF",
+		img: WeatherPNG,
+	}
 ]
 
 export const contactList:Array<IContact> = [
