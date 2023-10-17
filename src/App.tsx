@@ -24,7 +24,7 @@ const App:FC = () => {
             <h1>DEVELOPER</h1>
           </div>
           <div className='heroButtons'>
-            <a href='https://api.whatsapp.com/send/?phone=%2B77071914748&text&type=phone_number&app_absent=0'>
+            <a href='https://wa.me/+77002274659'>
               <Button text='HIRE ME' color='#F40B5F' icon={tick}/>
             </a>
             <a href="#projects">
