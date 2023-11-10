@@ -1,6 +1,6 @@
 import {FC} from 'react'
 import classes from '../styles/AboutMe.module.css'
-import journeyPNG from '../assets/myJourney.png'
+import journeyPNG from '../assets/myJourney.jpg'
 import { cars, games, gym, coding, paint } from '../assets'
 
 
