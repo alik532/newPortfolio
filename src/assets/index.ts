@@ -7,5 +7,6 @@ import paint from './paint.svg'
 import coding from './code.svg'
 import gym from './weight.svg'
 import games from './games.svg'
+import firebase from './firebase.svg'
 
-export {tick, arrow, code, coffee, cars, paint, coding, gym, games}
+export {tick, arrow, code, coffee, cars, paint, coding, gym, games, firebase}

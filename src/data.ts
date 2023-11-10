@@ -10,8 +10,25 @@ import LeetcodeSVG from './assets/leetcode.svg'
 import GithubSVG from './assets/github.svg'
 import Linkedin from './assets/linkedin.svg'
 import WeatherPNG from './assets/weather.png'
+import firebaseSVG from './assets/firebase.svg'
+import journeyPNG from './assets/journey.png'
 
 export const projectList:Array<IProject> = [
+	{
+		title: "Journey gaming library app", 
+		techs: [
+			{id: "1", name: 'React', logo: ReactSVG, description: "React is a free and open-source front-end JavaScript library for building user interfaces based on components.", color: "#61DAFB"},
+			{id: "2", name: 'Redux', logo: ReduxSVG, description: "Redux is an open-source JavaScript library for managing and centralizing application state.", color: "#764ABC"},
+			{id: "3", name: 'Rapid API', logo: RapidapiSVG, description: "The API Platform is a multi-cloud, customized hub to find, connect to, and share APIs.", color: "#0055DA"},
+			{id: "4", name: 'Typescript', logo: TypescriptSVG, description: "TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript.", color: "#3178C6"},
+			{id: "5", name: "Firebase", logo: firebaseSVG, description: "Firebase, Inc. is a set of backend cloud computing services and application development platforms provided by Google.", color: "#ffcb30"}
+		], 
+		description: "Journey is gaming app with which you can add games to your library, sign in, customise profile, set games as completed / favorite. Follow genres and developers.", 
+		sourceCode: "https://github.com/alik532/gaming-platform", 
+		site: "https://jazzy-gingersnap-ccaf3f.netlify.app", 
+		img: journeyPNG,
+		color: "#F44C28",
+	},
 	{
 		title: "Spotify clone app", 
 		techs: [
